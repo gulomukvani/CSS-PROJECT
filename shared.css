@@ -24,3 +24,22 @@
 .margin-r-10 {
     margin-right: 10px;
 }
+.button {
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition:0.1s ease all ;
+}
+.button:hover {
+    background-color: var(--main-color);
+    color: white;
+    
+
+}
