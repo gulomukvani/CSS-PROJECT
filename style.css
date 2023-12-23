@@ -86,11 +86,11 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns:auto auto auto;
     gap: 20px;
 }
 
-.one {
+.grid-item {
     background-color: #fff;
     padding: 15px;
     border-radius: 8px;
