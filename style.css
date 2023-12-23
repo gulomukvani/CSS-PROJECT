@@ -61,6 +61,8 @@ body {
 }
 .box-2 {
     background-color: white;
+    width: 100%;
+    border-radius: 12px;
     
 }
 .photo {
