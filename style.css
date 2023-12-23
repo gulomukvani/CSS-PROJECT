@@ -180,3 +180,35 @@ text-align: right;
     font-weight: 600;
     margin-bottom: 16px;
 }
+
+footer .contacts li {
+    display: flex;
+    gap:6px
+}
+ footer {
+    padding: 40px 50px;
+    background: white;
+ }
+ footer > :first-child {
+    margin-bottom: 54px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ footer .soc-media ul {
+    display: flex;
+    gap:10px;
+ }
+ 
+ footer h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+ }
+
+ footer li {
+    margin-bottom: 5px;
+ }
+ 
+ footer .copyright p {
+    text-align: center;
+ }
