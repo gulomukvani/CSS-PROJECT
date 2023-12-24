@@ -232,6 +232,13 @@ footer .contacts li {
     font-weight: 600;
     margin-bottom: 16px;
     }
+.box-6 .text-wrapper {
+    background-image: url(photos/background.jpg);
+    padding: 25px;
+    background-size: contain;
+    border-radius: 13px;
+    color: white;
+}
 .box-6 p {
     margin-bottom: 16px; ;
 }   
@@ -259,4 +266,11 @@ footer .contacts li {
 
 .grid-container-2 h4 {
     font-weight: 600;
+}
+.box-5 img {
+    width: 90%;
+}
+.unlock span {
+    display: inline-block;
+    animation: rotate ease 3s infinite ;
 }
