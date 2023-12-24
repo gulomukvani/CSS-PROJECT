@@ -1,30 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="Courses.html">
-    <link rel="stylesheet" href="About Us.html">
-    <link rel="stylesheet" href="Main.html">
-    <link rel="stylesheet" href="Pricing.html">
-
-    <title>Contact</title>
-
-</head>
-<body>
-
-        <a href="index.html">Main page</a> |
-        <a href="about.html">About</a> |
-       <a href="contacts.html">Contact</a> |
-        <a href="gallery.html">Gallery</a> 
-        
-        <h1 class="red">Contact Us</h1>
-        <p class="blue">Mobile:555 55 55 55</p>
-        <p class="blue">Mail: qwe@gmail.com</p>   
-        <p class="blue">Adress: Tbilisi, King Mirian 67</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.911865350605!2d44.743913402305!3d41.787113030095284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446faeb9357eb1%3A0xd4bcc9ce3a882882!2z4YOg4YOd4YOc4YOY4YOhIOGDnuGDmOGDquGDkA!5e0!3m2!1ska!2sge!4v1699518339022!5m2!1ska!2sge" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/reset.css">
+        <link rel="stylesheet" href="/shared.css">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kalnia&family=Raleway:ital,wght@1,400;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+        <title>Learn with Us</title>
+    </head>
+    <body>
     
+        <header class="header flex align-items-center justify-space-between ">
+            <div class="flex gap-20">
+                <a href="#" class="logo"><i class="fa-brands fa-studiovinari fa-2xl" style="color: #d97a20;"></i></a>
+                <nav class="navbar flex gap-20">
+                    <a href="./Main.html">Home</a>
+                    <a href="./Courses.html">Courses</a>
+                    <a href="./About-Us.html">About Us</a>
+                    <a href="./Contact.html">Contact</a>
+                </nav>
+            </div>
+            <div>
+                <div>
+                    <a href="Login" class="margin-r-10 button">Sign-up</a>
+                    <a href="Login" class="button">Login</a>
+                </div>
+            </div>
+        </header>
+        <div class="wrapper">
+            <div class="box-6">
+                <h2>Contact Us</h2>
+                <p>Welcome to SkillBridge's Pricing Plan page, where we offer two comprehensive options to cater to your needs: Free and Pro. We believe in providing flexible and affordable pricing options for our services. Whether you're an individual looking to enhance your skills or a business seeking professional development solutions, we have a plan that suits you. Explore our pricing options below and choose the one that best fits your requirements.</p>
+             </div>
+             <div class="forms">
+                <form action="/submit_form" method="post">
+                    <label for="name">First Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Phone:</label>
+                    <input type="email" id="phone" name="phone" required>
+                    <p>Gender:</p>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <p>Subject:</p>
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                      <option value="georgia">Georgia</option>
+                      <option value="italy">Italy</option>
+                      <option value="usa">USA</option>
+                      <option value="germany">Germany</option>
+                      <option value="canada">Canada</option>
+                      <option value="australia">Australia</option>
+
+                    </select>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button class="button">Send Your Message</button>
+                  </form>
+             </div>
+        </div>
+        <footer class="footer">
+            <div>
+    
+                <div class="contacts">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>hello@skillbridge.com</p>
+                
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+91 91813 23 2309</p>
+                            
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Somewhere in the World</p>
+                          
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>Home</h4>
+                    <ul>
+                        <li>Benefits</li>
+                        <li>Our Courses</li>
+                        <li>Our Testimonials</li>
+                        <li>Our FAQ</li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li>Company</li>
+                        <li>Achivements</li>
+                        <li>Our Goals</li>
+                    </ul>
+                </div>
+                <div class="soc-media">
+                    <h4>Social Profiles</h4>
+                    <ul>
+                        <li>
+                            <i class="fa-brands fa-facebook"></i>
+                            <a target="_blank" href="https://www.facebook.com/"></a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                            <a target="_blank" href="https://www.instagram.com/"></a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <a target="_blank" href="https://ge.linkedin.com/"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+            <p>&copy; 2023 Your Website. All rights reserved.</p>
+            </div>
+          </footer> 
+
 </body>
 </html>

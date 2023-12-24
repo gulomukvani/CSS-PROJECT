@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     --main-color: #FF9500;
-    --main-grey:#F7F7F8;
+    --main-grey:#f5e5c6;
     
 }
 
@@ -220,3 +220,22 @@ footer .contacts li {
  footer .copyright p {
     text-align: center;
  }
+
+ .box-5 h3 {
+    font-weight: 600;
+ }
+ .box-5 .grid-item > *:not(:last-child) {
+    margin-bottom: 20px;}
+
+ .box-6 h2 {
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    }
+ .box-6 p {
+    margin-bottom: 16px; ;
+ }   
+.forms {
+    margin: 20px;
+    padding: 8px;
+}
