@@ -346,5 +346,12 @@ iframe {
     .navbar {
         display: none;
     }
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+    footer > :first-child {
+        flex-direction: column;
+        gap: 20px;
+    }
 
 }
