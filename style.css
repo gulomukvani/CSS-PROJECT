@@ -233,11 +233,12 @@ footer .contacts li {
     margin-bottom: 16px;
     }
 .box-6 .text-wrapper {
-    background-image: url("./photos/background.jpg");
+    background-image: url("./photos/background.png");
     padding: 25px;
-    background-size: contain;
+    background-size: cover;
     border-radius: 13px;
     color: white;
+    background-repeat: no-repeat;
 }
 .box-6 p {
     margin-bottom: 16px; ;
@@ -254,7 +255,6 @@ footer .contacts li {
     gap: 30px;
     margin: 20px;
 }
-
 
 .grid-item-2 {
     background-color: #fff;
