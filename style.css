@@ -233,7 +233,7 @@ footer .contacts li {
     margin-bottom: 16px;
     }
 .box-6 .text-wrapper {
-    background-image: url(photos/background.jpg);
+    background-image: url("./photos/background.jpg");
     padding: 25px;
     background-size: contain;
     border-radius: 13px;
