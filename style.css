@@ -84,6 +84,7 @@ body {
     gap: 20px;
 }
 
+
 .grid-item {
     background-color: #fff;
     padding: 25px;
@@ -92,7 +93,7 @@ body {
     transition: transform 0.3s ease-in-out;
 }
 
-.one:hover {
+.grid-item:hover {
     transform: scale(1.05);
 }
 .h {
@@ -180,6 +181,13 @@ text-align: right;
     font-weight: 600;
     margin-bottom: 16px;
 }
+.box-5 .text-wrapper {
+    margin-bottom: 50px;}
+    
+.box-5 h2 {
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 16px;}
 
 footer .contacts li {
     display: flex;
