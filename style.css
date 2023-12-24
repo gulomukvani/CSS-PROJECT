@@ -277,3 +277,38 @@ footer .contacts li {
 .ad-wrapper {
     text-align: center;
 }
+.box-6 .grid-item-2 h4 {
+    margin-bottom: 15px;
+}
+.box-7 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.box-7 h2, .box-7 p {
+    flex-basis: 50%;
+}
+.box-7 h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 60px;
+    background-color: white;
+    width: 60%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.form-item {
+    display: flex;
+    justify-content: space-between;
+}
+.form-item > * {
+    gap:6px;
+}

@@ -32,52 +32,65 @@
             </div>
         </header>
         <div class="wrapper">
-            <div class="box-6">
+            <div class="box-7">
                 <h2>Contact Us</h2>
                 <p>Welcome to SkillBridge's Pricing Plan page, where we offer two comprehensive options to cater to your needs: Free and Pro. We believe in providing flexible and affordable pricing options for our services. Whether you're an individual looking to enhance your skills or a business seeking professional development solutions, we have a plan that suits you. Explore our pricing options below and choose the one that best fits your requirements.</p>
              </div>
              <div class="forms">
                 <form action="/submit_form" method="post">
-                    <div>                    
-                        <label for="name">First Name:</label>
-                        <input type="text" id="name" name="name" required>
+                    <div class="form-item">
+                        <div class="flex flex-direction-column">                    
+                            <label for="name">First Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="flex flex-direction-column">
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                         </div>
                     </div>
-                     <div>
-                        <label for="name">Last Name:</label>
-                        <input type="text" id="last-name" name="last-name" required>
-                     </div>
-                     <div>
+                    <div class="form-item">
+                        
+                     <div class="flex flex-direction-column">
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email" required>
                      </div>
-                     <div>
-                        <label for="email">Phone:</label>
-                        <input type="email" id="phone" name="phone" required>
+                     <div class="flex flex-direction-column">
+                        <label for="phone">Phone:</label>
+                        <input type="number" id="phone" name="phone" required>
                      </div>
-                     <div>
-                        <p>Gender:</p>
-                        <label for="male">Male</label>
-                        <input type="radio" id="male" name="gender" value="male">
-                        <label for="female">Female</label>
-                        <input type="radio" id="female" name="gender" value="female">
-                     </div>
-                     <div>
-                        <label for="country">Country:</label>
-                        <select id="country" name="country">
-                     </div>
-                     <div>
-                        <option value="georgia">Georgia</option>
-                        <option value="italy">Italy</option>
-                        <option value="usa">USA</option>
-                        <option value="germany">Germany</option>
-                        <option value="canada">Canada</option>
-                        <option value="australia">Australia</option>
-                     </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="flex flex-direction-column">
+                            <p>Gender:</p>
+                            <div class="flex gap-10">
+                                <div>
+                                    <label for="male">Male</label>
+                                    <input type="radio" id="male" name="gender" value="male">
+                                </div>
+                                <div>
+                                    <label for="female">Female</label>
+                                    <input type="radio" id="female" name="gender" value="female">
+                                </div>
+                            </div>
 
 
-                    </select>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
+                         </div>
+                         <div class="flex flex-direction-column">
+                            <label for="country">Country:</label>
+                            <select id="country" name="country">
+                                <option value="georgia">Georgia</option>
+                                <option value="italy">Italy</option>
+                                <option value="usa">USA</option>
+                                <option value="germany">Germany</option>
+                                <option value="canada">Canada</option>
+                                <option value="australia">Australia</option>
+                            </select>
+                         </div>
+                    </div>
+                    <div class="form-item flex-direction-column gap-10">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
                     <button class="button">Send Your Message</button>
                   </form>
                   <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d885.4569817644721!2d44.793066132738986!3d41.71382025639919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440d29693090bd%3A0xc1ee67971fa2dc4f!2zMTQwIOGDk-GDkOGDleGDmOGDlyDhg5Dhg6bhg5vhg5Dhg6jhg5Thg5zhg5Thg5Hhg5Thg5rhg5jhg6Eg4YOS4YOQ4YOb4YOW4YOY4YOg4YOYLCDhg5fhg5Hhg5jhg5rhg5jhg6Hhg5ggMDEwMg!5e0!3m2!1ska!2sge!4v1703420317129!5m2!1ska!2sge" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
