@@ -195,7 +195,7 @@ footer .contacts li {
 }
  footer {
     padding: 40px 50px;
-    background: white;
+    background: #f1bc41;
  }
  footer > :first-child {
     margin-bottom: 54px;
@@ -236,8 +236,8 @@ footer .contacts li {
     margin-bottom: 16px; ;
 }   
 .forms {
-    margin: 20px;
-    padding: 8px;
+    display: grid;
+    grid-gap: 10px;
 }
 
 .grid-container-2 {
